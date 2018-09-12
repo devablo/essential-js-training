@@ -6,6 +6,6 @@ export class Employee extends Person{
     }
 }
 
-export let EmployeeLog = function(employee){
+export let ToLog = function(employee){
     console.log(employee.Name);
 }

@@ -1,0 +1,18 @@
+{
+  "name": "essential-js-training",
+  "version": "1.0.0",
+  "description": "JavaScript Training Project",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./src/server.js"
+  },
+  "author": "Aaron Moreu",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

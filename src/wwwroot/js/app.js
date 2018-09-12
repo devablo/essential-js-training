@@ -1,7 +1,4 @@
-import {Person} from "../es6/Person.js"
-import {Employee, EmployeeLog} from "../es6/Employee.js"
-
-(function(target){
+(function(){
     
     class Greeter {
         constructor(message) {
@@ -14,10 +11,6 @@ import {Employee, EmployeeLog} from "../es6/Employee.js"
         }
     };
     
-    let employee = new Employee("Aaron", "Morey");
     var greeter = new Greeter(employee.Name);
     greeter.greet();
-    
-    EmployeeLog(employee);
-
 }(window));
