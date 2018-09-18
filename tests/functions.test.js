@@ -93,3 +93,13 @@ test('can execute arrow function with iterations', () => {
     let doubled = numbers.map(n => n * 2);
     expect(doubled).toEqual([2,4,6,8]);
 })
+
+test('can execute IIFE', () => {
+    let iife = (function() {
+        return {
+            message: 'Hello World'
+        }
+    })();
+
+    expect(iife.message).toBe('Hello World');
+})
