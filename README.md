@@ -1,8 +1,8 @@
-# Essential JavaScript Training
+# JavaScript Training Playground
 
 ## Overview
 
-Projectto demo JavaScript & ES6 through basic node web app & unit tests.
+Project to demo JavaScript & ES6 through basic node web app & unit tests.
 
 The goal of this repository is to promote training by example. Real web applications and building features changes building JavaScript applications at scale but the fundamental language, best practices and design patterns will be the same.
 
